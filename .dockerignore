@@ -1,0 +1,43 @@
+# archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# carpeta de almacenamiento de Composer
+/vendor
+
+# carpeta de almacenamiento de Laravel
+/storage
+
+# archivos de configuración de desarrollo local
+.env
+.env.*
+
+# logs de Laravel
+/logs
+
+# archivos generados por IDEs
+.idea/
+.phpstorm.meta.php
+*.iml
+
+# archivos de caché y configuración de Symfony
+/var
+!var/cache
+!var/cache/.gitkeep
+!var/logs
+!var/logs/.gitkeep
+!var/sessions
+!var/sessions/.gitkeep
+
+# carpeta de migraciones generadas por Symfony Flex
+/migrations
+
+# caché de npm
+/node_modules
+
+# caché de Yarn
+/yarn-error.log
+
+# archivos de caché de Composer
+/composer.phar
+/vendor/
